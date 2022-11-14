@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/calculadora.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Calculadora Sencilla</title>
+</head>
+
+<body>
+    <div class="bodyContainer">
+        <h1>Calculadora Sencilla.</h1>
+
+        <div id="parrafo">
+            <p><b>Instrucciones. </b>Esta calculadora te permite realizar operaciones de suma, resta, multiplicación y división entre dos cantidades.</p>
+            <p>Escribe dos números que necesitas, presiona el botón según corresponda para obtener el resultado.</p>
+        </div>
+
+        <div class="inputs">    
+            <label for="input1">Primer número</label>
+            <input type="text" id="input1" placeholder="Ingrese un número" name="number"  required/>
+            <br>
+            <br>
+            <label for="input2">Segundo número</label>
+            <input type="text" id="input2" placeholder="Ingrese un número" name="number"  required/>
+        </div>
+
+            <br>
+            <br>
+
+        <button id="sumar" class="boton">Sumar</button>
+        <button id="restar" class="boton">Restar</button>
+        <button id="multiplicar" class="boton">Multiplicar</button>
+        <button id="dividir" class="boton">Dividir</button>
+        <button id="reset" class="boton">Reset</button>
+
+
+        <div class="resultContainer">
+            <h2 id="resultado">0</h2>
+        </div>
+    </div>
+
+
+    <script src="/calculadora.js"></script>
+</body>
+</html>

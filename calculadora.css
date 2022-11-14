@@ -1,0 +1,104 @@
+body{
+    background-image: url(/assets/low-poly-grid-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: 
+        pan 6s infinite alternate linear;
+}
+
+@media (width >= 500px){
+    body{
+        padding: 0;
+    }
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: whitesmoke
+}
+
+#parrafo{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.inputs{
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    background-color: #e8e8e8;
+    box-shadow: 1px 1px 6px #ffffff,
+    -1px -1px 8px #c5c5c5;
+    font-size: 19px;
+    font-weight: bold;
+    max-width: 300px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.input:focus {
+    outline-color: white;
+}
+
+/*.input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 120px;
+    -webkit-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.22); 
+    box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.22);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    align-content: center;
+}*/
+
+.boton{
+    font-family: 'Montserrat', sans-serif;
+        padding: 15px 25px;
+        border: unset;
+        border-radius: 15px;
+        color: #212121;
+        z-index: 1;
+        background: #e8e8e8;
+        position: relative;
+        font-weight: 1000;
+        font-size: 17px;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms;
+        overflow: hidden;
+    }
+    
+    button::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 0;
+        border-radius: 15px;
+        background-color: #212121;
+        z-index: -1;
+        -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+        transition: all 250ms
+    }
+    
+    button:hover {
+        color: #e8e8e8;
+    }
+    
+    button:hover::before {
+    width: 100%;
+}
+
+#resultado{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 200px;
+    margin: 0px;
+    text-shadow: 2px 1px 8px #001C3F;
+    color:#e8e8e8;
+}
