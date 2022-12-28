@@ -1,5 +1,5 @@
 body{
-    background-image: url(/assets/low-poly-grid-haikei.svg);
+    background-image: url(./assets/low-poly-grid-haikei.svg);
     background-repeat: no-repeat;
     background-size: cover;
     animation: 
@@ -28,31 +28,17 @@ h1{
 .inputs{
     border: none;
     border-radius: 15px;
-    padding: 15px;
+    padding: 10px;
     background-color: #e8e8e8;
-    box-shadow: 1px 1px 6px #ffffff,
-    -1px -1px 8px #c5c5c5;
+    box-shadow: 1px 1px 4px #ffffff,
+    -1px -1px 4px #c5c5c5;
     font-size: 19px;
     font-weight: bold;
-    max-width: 300px;
+    max-width: 200px;
     font-family: 'Montserrat', sans-serif;
-
+    margin: 8px;
 }
 
-.input:focus {
-    outline-color: white;
-}
-
-/*.input{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    width: 120px;
-    -webkit-box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.22); 
-    box-shadow: 5px 4px 16px 0px rgba(0,0,0,0.22);
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
-    align-content: center;
-}*/
 
 .boton{
     font-family: 'Montserrat', sans-serif;
@@ -99,6 +85,5 @@ h1{
     text-align: center;
     font-size: 200px;
     margin: 0px;
-    text-shadow: 2px 1px 8px #001C3F;
     color:#e8e8e8;
 }
